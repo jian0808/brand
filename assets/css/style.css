@@ -1935,6 +1935,9 @@ hr {
     position: relative;
     letter-spacing: 0.05em
 }
+.ab-title{
+    letter-spacing: -2px;
+}
 @media(max-width: 575px) {
     .section-tittle span {
         font-size: 14px;
@@ -1948,9 +1951,9 @@ hr {
     height: 2px;
     background: #292c37;
     top: 0;
-    left: -67px;
+    left: 50%;
     top: 50%;
-    transform: translateY(-50%)
+    transform: translate(-50%)
 }
 @media(max-width: 575px) {
     .section-tittle span::before {
@@ -1963,6 +1966,9 @@ hr {
     color: #1d2434;
     font-weight: 800;
     text-transform: uppercase
+}
+.ab-title{
+    letter-spacing: -3px;
 }
 @media only screen and(min-width: 992px) and(max-width: 1199px) {
     .section-tittle h2 {
@@ -1999,7 +2005,7 @@ hr {
     color: #fff
 }
 .section-tittle3 span::before {
-    background: #ff1313
+    background: #0071de
 }
 .section-tittle3 h2 {
     color: #ffff
