@@ -1990,6 +1990,9 @@ hr {
 .section-tittle2 span {
     margin-left: 72px
 }
+.section-tittle2 .sm-bar{
+    margin-left: 30px;
+}
 @media only screen and(min-width: 576px) and(max-width: 767px) {
     .section-tittle2 h2 {
         text-align: left
@@ -2203,7 +2206,7 @@ nav.nav-menu-show {
     z-index: 9
 }
 .header-sticky.sticky-bar {
-    background: #0071de
+    background: #00a8f6
 }
 .header-sticky.sticky-bar.sticky .main-menu ul li a {
     padding: 20px !important
@@ -2646,7 +2649,7 @@ animation-duration: 20s;
     z-index: 0
 }
 .service-area .service-bg {
-    background-image: url('../img/gallery/section_bg01.png');
+    background-image: url('../img/gallery/section_bg01.jpg');
     position: absolute;
     top: 0;
     left: 0;
@@ -2687,14 +2690,21 @@ animation-duration: 20s;
         padding: 84px 25px 56px
     }
 }
+.service-area .services-caption .lohas{
+    margin-bottom: 47px;
+    padding-top: 10px;
+}
+.service-area .services-caption .lohas img{
+    width: 25%;
+}
 .service-area .services-caption .service-icon {
     display: inline-block;
     position: relative
 }
 .service-area .services-caption .service-icon i {
-    color: #000;
+    color: #00C6A9;
     display: block;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     margin-bottom: 42px;
     -webkit-transition: 0.5s;
@@ -2718,9 +2728,9 @@ animation-duration: 20s;
     color: #717081;
     font-size: 15px
 }
-.services-caption:hover .service-icon i {
-    color: #0071de
-}
+/* .services-caption:hover .service-icon i {
+    color: #74ae1b
+} */
 .popular-work-area .single-cat {
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
@@ -2754,8 +2764,9 @@ animation-duration: 20s;
     display: block
 }
 .popular-work-area .single-cat .img-cap p {
-    font-size: 15px;
-    color: #686868
+    font-size: 14px;
+    color: #686868;
+    letter-spacing: -1px;
 }
 .popular-work-area .single-cat:hover .img-cap {
     top: 90%
