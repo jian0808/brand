@@ -1949,7 +1949,7 @@ hr {
     content: "";
     width: 50px;
     height: 2px;
-    background: #292c37;
+    background: #0071de;
     top: 0;
     left: 50%;
     top: 50%;
@@ -2779,7 +2779,7 @@ animation-duration: 20s;
 }
 .experience-area {
     margin-top: -176px;
-    background-image: url('../img/gallery/section_bg02.png');
+    background-image: url('../img/gallery/section_bg02.jpg');
     position: relative;
     z-index: 0;
     height: 1000px;
@@ -2805,7 +2805,7 @@ animation-duration: 20s;
 .experience-area .caption-overlay {
     position: absolute;
     content: "";
-    background-color: rgba(4, 21, 28, 0.902);
+    background-color: rgba(4, 40, 88, 0.902);
     width: 55%;
     height: 60%;
     left: 0;
