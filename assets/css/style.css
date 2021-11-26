@@ -1656,19 +1656,19 @@ hr {
     outline: 0
 }
 .section-padding2 {
-    padding-top: 200px;
-    padding-bottom: 200px
+    padding-top: 180px;
+    padding-bottom: 180px
 }
 @media only screen and(min-width: 1200px) and(max-width: 1600px) {
     .section-padding2 {
-        padding-top: 200px;
-        padding-bottom: 200px
+        padding-top: 180px;
+        padding-bottom: 180px
     }
 }
 @media only screen and(min-width: 992px) and(max-width: 1199px) {
     .section-padding2 {
-        padding-top: 200px;
-        padding-bottom: 200px
+        padding-top: 180px;
+        padding-bottom: 180px
     }
 }
 @media only screen and(min-width: 768px) and(max-width: 991px) {
@@ -2744,7 +2744,7 @@ animation-duration: 20s;
 }
 .popular-work-area .single-cat .img-cap {
     position: absolute;
-    top: 100%;
+    top: 90%;
     width: 100%;
     left: 0;
     background: #fff;
@@ -2752,14 +2752,15 @@ animation-duration: 20s;
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
-    padding: 10px 10px 10px 5px
+    padding: 25px 20px 25px 20px;
+    border: 1px solid #f2f2f2;
 }
 .popular-work-area .single-cat .img-cap h4 {
     font-weight: 700;
     font-family: "Rajdhani", sans-serif;
     font-size: 26px;
     color: #1d1d1d;
-    font-size: 16px;
+    font-size: 28px;
     margin-bottom: 0;
     display: block
 }
@@ -2767,9 +2768,10 @@ animation-duration: 20s;
     font-size: 14px;
     color: #686868;
     letter-spacing: -1px;
+    margin: 0;
 }
 .popular-work-area .single-cat:hover .img-cap {
-    top: 90%
+    top: 80%
 }
 .popular-work-area .single-cat:hover .cat-icon i {
     color: #0071de
