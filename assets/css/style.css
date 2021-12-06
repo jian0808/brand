@@ -1950,6 +1950,7 @@ hr {
         padding-left: 60px
     }
 }
+
 .section-tittle span::before {
     position: absolute;
     content: "";
@@ -1971,7 +1972,8 @@ hr {
     display: block;
     color: #1d2434;
     font-weight: 800;
-    text-transform: uppercase
+    text-transform: uppercase;
+    letter-spacing: -3px;
 }
 .ab-title{
     letter-spacing: -3px;
@@ -1994,7 +1996,7 @@ hr {
     }
 }
 .section-tittle2 span {
-    margin-left: 72px
+    margin-left: 25px
 }
 .section-tittle2 .sm-bar{
     margin-left: 30px;
@@ -2363,7 +2365,7 @@ animation-duration: 20s;
 }
 
 .slider-area2 {
-    background-image: url('../img/hero/hero2.png');
+    background-image: url('../img/hero/hero2.jpg');
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -2589,7 +2591,8 @@ animation-duration: 20s;
     color: #64676c;
     line-height: 1.6;
     margin-bottom: 40px;
-    padding-right: 50px
+    padding-right: 50px;
+    text-align: justify;
 }
 @media only screen and(min-width: 992px) and(max-width: 1199px) {
     .about-area .about-caption p {
