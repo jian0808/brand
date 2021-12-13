@@ -5777,30 +5777,11 @@ del {
     z-index: 0;
     padding-bottom: 180px;
 }
-@media only screen and(min-width: 768px) and(max-width: 991px) {
-    .point-area {
-        padding-top: 100px;
-        padding-bottom: 100px
-    }
-}
-@media (max-width:1200px){
-    .point-area > .container{
-        max-width: 100%;
-    }
-}
-@media only screen and(min-width: 576px) and(max-width: 767px) {
-    .point-area {
-        padding-bottom: 70px
-    }
-}
-@media(max-width: 575px) {
-    .point-area {
-        padding-bottom: 70px
-    }
-}
 .point-area .strong-point {
     background: #f8f8f8;
-    padding: 17% 12% 17%;
+    max-width: 370px;
+    min-height: 370px;
+    padding: 60px 30px 20px;
     border-radius: 7px;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -5848,4 +5829,52 @@ del {
 .point-area .strong-point .point-text p {
     color: #717081;
     font-size: 15px
+}
+@media (max-width:1200px){
+    .point-area > .container{
+        max-width: 100%;
+    }
+    .point-area .strong-point{
+        max-width: 320px;
+        min-height: 320px;
+        padding: 30px 30px 20px;
+        margin: 5px auto;
+    }
+}
+@media only screen and(min-width: 768px) and(max-width: 1024px) {
+    .point-area {
+        padding-top: 100px;
+        padding-bottom: 100px
+    }
+}
+@media only screen and(min-width: 576px) and(max-width: 767px) {
+    .point-area {
+        padding-bottom: 70px
+    }
+}
+@media(max-width: 575px) {
+    .point-area {
+        padding-bottom: 70px
+    }
+}
+.about_visual .about_bottom{
+    background: url('../img/gallery/about_bottom.jpg') no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+}
+.about_visual .about_bottom .text-area{
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -1px;
+}
+.about_visual .about_bottom .text-area p{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #111;
+    line-height: 1.3;
+}
+.about_visual .about_bottom .text-area p span{
+    font-size: 3.5rem;
+    display: inline-block;
+    margin-bottom: 20px;
 }
