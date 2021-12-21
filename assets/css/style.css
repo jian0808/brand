@@ -38,8 +38,6 @@
 img{
     width: 100%;
 }
-
-
 .justify{
     text-align: justify;
 }
@@ -2805,7 +2803,7 @@ animation-duration: 20s;
     background: #f7fbff
 }
 .experience-area {
-    margin-top: -176px;
+    margin-top: -255px;
     background-image: url('../img/gallery/section_bg02.jpg');
     position: relative;
     z-index: 0;
@@ -3419,6 +3417,7 @@ animation-duration: 20s;
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap p {
     color: #707b8e;
     margin-bottom: 0;
+    text-align: justify;
 }
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 {
     font-weight: 700;
@@ -4536,7 +4535,7 @@ animation-duration: 20s;
     display: block
 }
 .contact-section {
-    padding: 130px 0 100px
+    padding: 130px 0
 }
 @media(max-width: 991px) {
     .contact-section {
@@ -5837,6 +5836,9 @@ del {
         padding-bottom: 70px
     }
 }
+.about_visual{
+    overflow-x: hidden;
+}
 .about_visual .about_bottom{
     background: url('../img/gallery/about_bottom.jpg') no-repeat;
     background-size: cover;
@@ -5897,6 +5899,133 @@ del {
     margin-top: 30px;
     font-size: 20px;
 }
-.domus-area .domus-story{
-   
+.machine-sub-title{
+    font-size: 46px;
+    margin-bottom: 50px;
+}
+.machine-name span{
+    font-size: 20px;
+}
+.machine-name h2{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.product_table{
+    width: 100%;
+    border-top: 2px solid #0071de;
+}
+.product_table tr:first-child td {
+    color: #666;
+}
+.product_table tr:last-child td{
+    color: #0071de;
+    font-weight: 600;
+}
+.product_table td{
+    border-bottom: 1px solid #e9e9e9;
+    border-right: 1px solid #eaeaea;
+    text-align: center;
+    padding: 14px 0;
+    width: 50%;
+}
+.product_table td:last-child {
+    border-right: 0;
+}
+.down-btn{
+    display: inline-block;
+    border: 1px solid #989da0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #0071de;
+    margin-top: 50px;
+}
+.down-btn i{
+    padding-left: 10px;
+}
+.down-btn:hover{
+    background: #0071de;
+    color: #fff;
+}
+.washing-machine {
+    padding-top: 0;
+}
+@media(max-width: 575px) {
+    .washing-machine .about-caption {
+        margin-bottom: 35px
+    }
+}
+.washing-machine .about-caption p {
+    font-size: 16px;
+    color: #64676c;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+@media only screen and(min-width: 992px) and(max-width: 1199px) {
+    .washing-machine .about-caption p {
+        padding-right: 20px
+    }
+}
+@media only screen and(min-width: 576px) and(max-width: 767px) {
+    .washing-machine .about-caption p {
+        padding-right: 0
+    }
+}
+@media(max-width: 575px) {
+    .washing-machine .about-caption p {
+        padding-right: 0
+    }
+}
+.washing-machine .about-img {
+    position: relative
+}
+.washing-machine .about-img .about-font-img {
+    position: relative;
+    z-index: 1
+}
+@media only screen and(min-width: 992px) and(max-width: 1199px) {
+    .washing-machine .about-img .about-font-img img {
+        width: 90%
+    }
+}
+@media(max-width: 575px) {
+    .washing-machine .about-img .about-font-img img {
+        width: 100%
+    }
+}
+.Dryer-area{
+    padding-top: 0;
+}
+.Dryer-area .about-caption p {
+    font-size: 16px;
+    color: #64676c;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* Contact Area */
+.contact-section .deco-line{
+    display: block;
+    border-bottom: 2px solid #0071de;
+}
+.contact-section .phone > .row{
+    flex-wrap: nowrap;
+    padding-right: 15px;
+}
+.contact-section .phone span{
+    margin-top: 10px;
+}
+
+
+/* 카카오맵 */
+.customoverlay {position:relative;bottom:85px;border-radius:6px;border: 1px solid #ccc;border-bottom:2px solid #ddd;float:left;}
+.customoverlay:nth-of-type(n) {border:0; box-shadow:0px 1px 2px #888;}
+.customoverlay a {display:block;text-decoration:none;color:#000;text-align:center;border-radius:6px;font-size:14px;font-weight:bold;overflow:hidden;background: #0071de;background: #0071de url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;}
+.customoverlay .title {display:block;text-align:center;background:#fff;margin-right:35px;padding:10px 15px;font-size:14px;font-weight:bold;}
+.customoverlay:after {content:'';position:absolute;margin-left:-12px;left:50%;bottom:-12px;width:22px;height:12px;background:url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}   
+.map-area{
+    height: 500px;
+    padding: 0;
 }
