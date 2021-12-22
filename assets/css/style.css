@@ -6016,10 +6016,12 @@ del {
 }
 .contact-section .phone span{
     margin-top: 10px;
+    color: #e5e6e9;
+    font-weight: 600;
 }
 .agree-text{
     background-color: #f4f4f4;
-    border: 1px solid #d9d9d9;
+    border: 1px solid #bbbbbb;
     padding: 35px;
     font-size: 16px;
     line-height: 1.7;
