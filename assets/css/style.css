@@ -498,7 +498,8 @@ hr {
     border-radius: 50%;
     line-height: 48px;
     border: 2px solid transparent;
-    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2)
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+    z-index: 99;
 }
 @media(max-width: 575px) {
     #scrollUp,
@@ -1961,7 +1962,7 @@ hr {
     transform: translate(-50%)
 }
 @media(max-width: 575px) {
-    .section-tittle span::before {
+    .about-area .section-tittle span::before {
         left: 0
     }
 }
@@ -2080,14 +2081,9 @@ hr {
         padding: 0 15px
     }
 }
-@media only screen and(min-width: 768px) and(max-width: 991px) {
+@media (max-width: 991px) {
     .header-area .main-header {
         padding: 22px 50px
-    }
-}
-@media only screen and(min-width: 576px) and(max-width: 767px) {
-    .header-area .main-header {
-        padding: 22px 20px
     }
 }
 @media(max-width: 575px) {
@@ -2762,6 +2758,21 @@ animation-duration: 20s;
     position: relative;
     z-index: 1
 }
+@media (max-width: 1199px){
+    .popular-work-area .single-cat{
+        margin-bottom: 130px;
+    }
+}
+@media (max-width: 768px){
+    .popular-work-area .single-cat{
+        margin-bottom: 150px;
+    }
+}
+@media (max-width: 575px){
+    .popular-work-area .single-cat{
+        margin-bottom: 130px;
+    }
+}
 .popular-work-area .single-cat img {
     width: 100%
 }
@@ -2792,6 +2803,14 @@ animation-duration: 20s;
     color: #686868;
     letter-spacing: -1px;
     margin: 0;
+}
+@media (max-width: 768px){
+    .popular-work-area .single-cat .img-cap h4{
+        font-size: 22px;
+    }
+    .popular-work-area .single-cat .img-cap p{
+        line-height: 26px;
+    }
 }
 .popular-work-area .single-cat:hover .img-cap {
     top: 80%
@@ -3229,8 +3248,9 @@ animation-duration: 20s;
     }
 }
 @media(max-width: 575px) {
-    .footer-area .footer-top {
-        padding-bottom: 50px
+
+    .footer-area .footer-top .footer-menu{
+        padding: 0 15px;
     }
 }
 .footer-area .footer-top .footer-logo {
@@ -3273,7 +3293,7 @@ animation-duration: 20s;
 }
 @media only screen and(min-width: 768px) and(max-width: 991px) {
     .footer-area .footer-bottom .footer-copy-right {
-        padding-top: 0;
+        padding: 0;
         float: left
     }
 }
@@ -3285,7 +3305,7 @@ animation-duration: 20s;
 }
 @media(max-width: 575px) {
     .footer-area .footer-bottom .footer-copy-right {
-        padding-top: 0;
+        padding: 0 15px;
         float: left
     }
 }
