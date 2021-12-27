@@ -1,10 +1,5 @@
 (function ($)
   { "use strict"
-  
-
-
-
-
 
 /* 1. Proloder */
     $(window).on('load', function () {
@@ -32,8 +27,7 @@
         scrollTop: 0
       }, 800);
       return false;
-    });
-  
+    });  
 
 /* 3. slick Nav */
 // mobile_menu
@@ -68,7 +62,6 @@
           }
       }
     })
-
         var dot = $('.slider-active .owl-dot , .slider-full-active .owl-dot');
         dot.each(function() {
           var index = $(this).index() + 1;
@@ -78,9 +71,6 @@
             $(this).html(index);
           }
       });
-
-
-
 
 /* 4. Testimonial Active*/
     var testimonial = $('.h1-testimonial-active');
@@ -148,7 +138,6 @@
     }
     mailChimp();
 
-
 // 12 Pop Up Img
     var popUp = $('.single_gallery_part, .img-pop-up');
       if(popUp.length){
@@ -191,6 +180,11 @@
     });
 
 })(jQuery);
+
+// login
+function login() {
+  alert("점주회원님을 위한 서비스입니다. 로그인 후 이용바랍니다.");
+}
 
 // 오시는길 카카오맵
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 

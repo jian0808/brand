@@ -6072,3 +6072,76 @@ del {
     height: 500px;
     padding: 0;
 }
+
+/* login */
+.login-section .login{
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+.login-section .login h2{
+    border-bottom: 3px solid #0071de;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.login-section .login h2 img{
+    max-width: 250px;
+}
+.login-section .login > ul{
+    margin-top: 50px;
+}
+.login-section .login > ul li{
+    margin: 15px 0;
+}
+.login-section .login input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+}
+.login-section .login input::-webkit-input-placeholder {
+    font-size: 16px;
+    color: #999;
+}
+.login-section .login input[type="checkbox"] {
+    position: absolute;
+    left: -2000%;
+}
+.login-section .login input[type="checkbox"] + label::before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #666;
+    background: #fff;
+    vertical-align: -4px;
+    margin: 0 10px 0 0;
+}
+.login-section .login input[type="checkbox"]:checked + label::before{
+    background: url('../img/check.jpg') no-repeat center #333; border-color: #333;
+}
+.login-section .login button{
+    width: 100%;
+    background: #0071de;
+    padding: 12px 0;
+    border: none;
+    cursor: pointer;
+}
+.login-section .login .search_join li{
+    padding: 0 15px;
+    position: relative;
+}
+.login-section .login .search_join li+li:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 1px;
+    height: 14px;
+    background: #999;
+    transform: rotate(25deg);
+}
+.login-section .login .search_join a{
+    color: #999;
+    font-size: 14px;
+}
