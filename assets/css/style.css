@@ -1994,9 +1994,6 @@ hr {
         font-size: 27px
     }
 }
-.section-tittle2 span {
-    /* margin-left: 25px */
-}
 .section-tittle2 .sm-bar{
     margin-left: 30px;
 }
@@ -2027,10 +2024,6 @@ hr {
 }
 .section-bg {
     background-color: #3B4856;
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed */
 }
 .white-bg {
     background: #ffffff
@@ -2245,6 +2238,11 @@ nav.nav-menu-show {
 .mobile_menu .slicknav_menu .slicknav_btn {
     top: -32px
 }
+@media (max-width: 991px){
+    .mobile_menu .slicknav_menu .slicknav_btn{
+        top: -40px;
+    }
+}
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
     background-color: #fff !important
 }
@@ -2348,7 +2346,6 @@ animation-duration: 13s;
 animation-delay: -5s;
 animation-duration: 20s;
 }
-
 @keyframes move {
     0% {
     transform: translate3d(-90px,0,0);
@@ -2357,7 +2354,6 @@ animation-duration: 20s;
             transform: translate3d(85px,0,0);
     }
 }
-
 .slider-area2 {
     background-image: url('../img/hero/sub_top01.jpg');
     background-repeat: no-repeat;
@@ -2374,7 +2370,6 @@ animation-duration: 20s;
     top: 0;
     width: 100%;
     height: 100%;
-
 }
 .slider-area .slide-full-content {
     overflow: hidden
@@ -5863,6 +5858,25 @@ del {
         padding-bottom: 70px
     }
 }
+@media(max-width: 360px) {
+    .point-area .strong-point {
+        max-width: 290px;
+        min-height: 290px;
+        padding: 35px 30px 20px;
+    }
+    .point-area .strong-point .point-icon i{
+        margin-bottom: 25px;
+    }
+    .point-area .strong-point .point-text h4{
+        margin-bottom: 15px;
+    }
+    .point-area .strong-point .point-text p{
+        line-height: 24px;
+    }
+    .point-area .strong-point .lohas{
+        margin-bottom: 30px;
+    }
+}
 .about_visual{
     overflow-x: hidden;
 }
@@ -6086,6 +6100,20 @@ del {
 }
 
 /* Contact Area */
+.sub3_contact{
+    background-image: url('../img/hero/sub_top03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.sub3_contact::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.1);
+}
 .contact-section .deco-line{
     display: block;
     border-bottom: 2px solid #0071de;
@@ -6127,6 +6155,11 @@ del {
 }
 
 /* login */
+.sub4_login{
+    background-image: url('../img/hero/sub_top04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
 .login-section .login{
     flex-direction: column;
     width: 100%;
