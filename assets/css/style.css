@@ -1922,7 +1922,7 @@ hr {
 @media(max-width: 575px) {
     .section-tittle {
         margin-bottom: 50px;
-        text-align: left !important
+        text-align: center
     }
 }
 @media only screen and(min-width: 576px) and(max-width: 767px) {
@@ -1946,7 +1946,7 @@ hr {
 @media(max-width: 575px) {
     .section-tittle span {
         font-size: 14px;
-        padding-left: 60px
+        padding-left: 30px
     }
 }
 
@@ -1990,7 +1990,7 @@ hr {
 }
 @media(max-width: 575px) {
     .section-tittle h2 {
-        text-align: left;
+        text-align: center;
         font-size: 27px
     }
 }
@@ -2007,7 +2007,7 @@ hr {
 }
 @media(max-width: 575px) {
     .section-tittle2 h2 {
-        text-align: left;
+        text-align: center;
         font-size: 27px
     }
 }
@@ -2420,7 +2420,7 @@ animation-duration: 20s;
     height: 3px
 }
 .slider-area .slide-full-content h1 {
-    font-size: 85px;
+    font-size: 80px;
     font-weight: 700;
     margin-bottom: 24px;
     color: #fff;
@@ -5887,7 +5887,24 @@ del {
     display: inline-block;
     margin-bottom: 20px;
 }
-
+@media(max-width: 768px){
+    .about_visual .about_bottom{
+        padding: 150px 0;
+    }
+    .about_visual .about_bottom .text-area p{
+        padding: 0 20px;
+        
+    }
+}
+@media(max-width: 575px){
+    .about_visual .about_bottom .text-area p{
+        font-size: 2rem;
+        color: #fff;
+    }
+    .about_visual .about_bottom .text-area p span{
+        font-size: 2.5rem;
+    }
+}
 /* 장비소개 */
 .sub2_machine{
     background-image: url('../img/hero/sub_top02.jpg');
@@ -5926,6 +5943,22 @@ del {
     margin-top: 30px;
     font-size: 20px;
 }
+@media (max-width: 991px){
+    .domus-area .section-tittle h3 br{
+        display: none;
+    }
+}
+@media (max-width: 575px){
+    .domus-area .section-tittle h3{
+        font-size: 30px;
+    }
+    .domus-area .section-tittle img {
+        width: 180px;
+    }
+    .domus-area .section-tittle p {
+        font-size: 16px;
+    }
+}
 .machine-sub-title{
     font-size: 46px;
     margin-bottom: 50px;
@@ -5933,10 +5966,20 @@ del {
 .machine-name span{
     font-size: 20px;
 }
+@media (max-width: 575px){
+    .machine-sub-title{
+        font-size: 34px;
+    }
+}
 .machine-name h2{
     font-size: 30px;
     margin-top: 10px;
     font-weight: 600;
+}
+@media (max-width: 575px){
+    .machine-name h2{
+        font-size: 28px;
+    }
 }
 .product_table{
     width: 100%;
@@ -5989,6 +6032,11 @@ del {
     margin-bottom: 40px;
     text-align: justify;
 }
+@media (max-width: 991px){
+    .washing-machine .product_area{
+        flex-direction: column;
+    }
+}
 @media only screen and(min-width: 992px) and(max-width: 1199px) {
     .washing-machine .about-caption p {
         padding-right: 20px
@@ -6023,6 +6071,11 @@ del {
 }
 .Dryer-area{
     padding-top: 0;
+}
+@media (max-width: 991px){
+    .Dryer-area .product_area{
+        flex-direction: column;
+    }
 }
 .Dryer-area .about-caption p {
     font-size: 16px;
