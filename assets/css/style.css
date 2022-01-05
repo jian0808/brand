@@ -3237,13 +3237,32 @@ animation-duration: 20s;
     color: rgba(255,255,255,.7);
     font-weight: 200;
 }
+.footer-area .footer-top .footer-menu .company-info{
+    margin-bottom: 10px;
+}
+.footer-area .footer-top .footer-menu .company-info li{
+    position: relative;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+.footer-area .footer-top .footer-menu .company-info li:first-child{
+    padding-left: 0;
+}
+.footer-area .footer-top .footer-menu .company-info li+li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 1px;
+    height: 14px;
+    background-color: rgba(255,255,255,0.5);
+}
 @media only screen and(min-width: 576px) and(max-width: 767px) {
     .footer-area .footer-top {
         padding-bottom: 50px
     }
 }
 @media(max-width: 575px) {
-
     .footer-area .footer-top .footer-menu{
         padding: 0 15px;
     }
